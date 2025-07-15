@@ -13,7 +13,7 @@ export default  async function Home() {
       <div className="flex justify-end w-full">
               <AddTodoForm userId={userId} />
       </div>
-      <TodoTable todos={todos}/>
+              <TodoTable todos={todos}/>
     </main>
   );
 }
